@@ -1,0 +1,12 @@
+{
+    "name" : "ViT_120B",
+    "type" : "ViT",
+    "bytes_per_nonemb_param" : 2,
+    "bytes_per_emb_param" : 2,
+    "num_transformer_layers" : 96,
+    "num_transformer_heads" : 80,
+    "attention_dim" : 10240,
+    "transformer_fc_dim" : 40960,
+    "image_size" : 224,
+    "patch_dim" : 14
+}

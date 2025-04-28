@@ -1,0 +1,21 @@
+{
+    "name" : "CloudA-512-p3dn.24xlarge",
+    "type" : "GPU",
+    "num_devices" : 512,
+    "num_nodes" : 64,
+    "f64_flops" : 7e12,
+    "f32_flops" : 14e12,
+    "f16_flops" : 112e12,
+    "i8_ops" : 112e12,
+    "flops_util" : 0.705,
+    "mem_cap" : 32e9,
+    "mem_bw" : 900e9,
+    "mem_bw_util" : 0.836,
+    "num_nvlinks" : 6,
+    "bw_per_nvlink" : 50e9,
+    "nvlink_util" : 0.45,
+    "num_ibroce_ports" : 8,
+    "ibroce_bw" : 1.5625e9,
+    "ibroce_util" : 0.62,
+    "ar_perc_intra" : 0.1465
+}

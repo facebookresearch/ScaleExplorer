@@ -1,0 +1,12 @@
+{
+    "name" : "DINOv2_S",
+    "type" : "ViT",
+    "bytes_per_nonemb_param" : 2,
+    "bytes_per_emb_param" : 2,
+    "num_transformer_layers" : 12,
+    "num_transformer_heads" : 6,
+    "attention_dim" : 384,
+    "transformer_fc_dim" : 1536,
+    "image_size" : 224,
+    "patch_dim" : 16
+}

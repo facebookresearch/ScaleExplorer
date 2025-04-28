@@ -1,0 +1,10 @@
+{
+    "name" : "vit_inference",
+    "type" : "inference",
+    "emb_parallel" : ["ddp"],
+    "emb_parallel_degree" : [128],
+    "transformer_parallel" : ["fsdp"],
+    "transformer_parallel_degree" : [128],
+    "local_emb_bs" : 16,
+    "local_transformer_bs" : 16
+}

@@ -1,0 +1,10 @@
+{
+    "name" : "dlrm_inference",
+    "type" : "inference",
+    "mlp_parallel" : ["ddp"],
+    "mlp_parallel_degree" : [512],
+    "emb_parallel" : ["mp"],
+    "emb_parallel_degree" : [512],
+    "local_mlp_bs" : 128,
+    "local_emb_bs" : 65536
+}

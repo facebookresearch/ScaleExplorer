@@ -1,0 +1,12 @@
+{
+    "name" : "ViT_L",
+    "type" : "ViT",
+    "bytes_per_nonemb_param" : 2,
+    "bytes_per_emb_param" : 2,
+    "num_transformer_layers" : 24,
+    "num_transformer_heads" : 16,
+    "attention_dim" : 1024,
+    "transformer_fc_dim" : 4096,
+    "image_size" : 224,
+    "patch_dim" : 16
+}

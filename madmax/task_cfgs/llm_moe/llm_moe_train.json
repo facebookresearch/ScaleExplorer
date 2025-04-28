@@ -1,0 +1,10 @@
+{
+    "name" : "llm_moe_train",
+    "type" : "pretrain",
+    "emb_parallel" : ["ddp"],
+    "emb_parallel_degree" : [2048],
+    "transformer_parallel" : ["ddp"],
+    "transformer_parallel_degree" : [2048],
+    "local_emb_bs" : 1,
+    "local_transformer_bs" : 8
+}

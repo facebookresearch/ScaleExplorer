@@ -1,0 +1,10 @@
+{
+    "name" : "dlrm_train_val_8",
+    "type" : "pretrain",
+    "mlp_parallel" : ["ddp"],
+    "mlp_parallel_degree" : [8],
+    "emb_parallel" : ["mp"],
+    "emb_parallel_degree" : [8],
+    "local_mlp_bs" : 512,
+    "local_emb_bs" : 4096
+}

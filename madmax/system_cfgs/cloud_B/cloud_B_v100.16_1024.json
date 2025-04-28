@@ -1,0 +1,21 @@
+{
+    "name" : "CloudB-1024-NC24rs_v3",
+    "type" : "GPU",
+    "num_devices" : 1024,
+    "num_nodes" : 256,
+    "f64_flops" : 7e12,
+    "f32_flops" : 14e12,
+    "f16_flops" : 112e12,
+    "i8_ops" : 112e12,
+    "flops_util" : 0.705,
+    "mem_cap" : 16e9,
+    "mem_bw" : 900e9,
+    "mem_bw_util" : 0.836,
+    "num_nvlinks" : 1,
+    "bw_per_nvlink" : 0.75e9,
+    "nvlink_util" : 0.62,
+    "num_ibroce_ports" : 4,
+    "ibroce_bw" : 0.75e9,
+    "ibroce_util" : 0.62,
+    "ar_perc_intra" : 0.1465
+}

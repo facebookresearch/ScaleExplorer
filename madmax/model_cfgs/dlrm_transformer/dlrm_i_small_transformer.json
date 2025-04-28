@@ -1,0 +1,18 @@
+{
+    "name" : "DLRM_I_Small_Transformer",
+    "type" : "DLRM_Transformer",
+    "bytes_per_nonemb_param" : 4,
+    "bytes_per_emb_param" : 2,
+    "num_bot_mlp_layers" : 22,
+    "num_top_mlp_layers" : 22,
+    "mlp_dim" : 826,
+    "num_tables" : 512,
+    "entries_per_table" : 440000,
+    "emb_dim" : 92,
+    "pooling_size" : 70,
+    "num_transformer_layers" : 4,
+    "num_transformer_heads" : 4,
+    "attention_dim" : 512,
+    "transformer_fc_dim" : 2048,
+    "transformer_seq_len" : 80
+}

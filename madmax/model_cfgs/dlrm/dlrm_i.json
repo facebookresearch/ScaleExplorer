@@ -1,0 +1,13 @@
+{
+    "name" : "DLRM_I",
+    "type" : "DLRM",
+    "bytes_per_nonemb_param" : 4,
+    "bytes_per_emb_param" : 2,
+    "num_bot_mlp_layers" : 22,
+    "num_top_mlp_layers" : 22,
+    "mlp_dim" : 826,
+    "num_tables" : 512,
+    "entries_per_table" : 7050000,
+    "emb_dim" : 92,
+    "pooling_size" : 70
+}

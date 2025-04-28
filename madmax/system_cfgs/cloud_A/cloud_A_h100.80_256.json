@@ -1,0 +1,21 @@
+{
+    "name" : "CloudA-256-p5.48xlarge",
+    "type" : "GPU",
+    "num_devices" : 256,
+    "num_nodes" : 32,
+    "f64_flops" : 26e12,
+    "f32_flops" : 378e12,
+    "f16_flops" : 756e12,
+    "i8_ops" : 1513e12,
+    "flops_util" : 0.705,
+    "mem_cap" : 80e9,
+    "mem_bw" : 2000e9,
+    "mem_bw_util" : 0.836,
+    "num_nvlinks" : 18,
+    "bw_per_nvlink" : 50e9,
+    "nvlink_util" : 0.45,
+    "num_ibroce_ports" : 8,
+    "ibroce_bw" : 50e9,
+    "ibroce_util" : 0.62,
+    "ar_perc_intra" : 0.1465
+}

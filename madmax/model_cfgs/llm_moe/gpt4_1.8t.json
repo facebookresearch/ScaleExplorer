@@ -1,0 +1,14 @@
+{
+    "name" : "GPT4_1.8T",
+    "type" : "LLM_MoE",
+    "bytes_per_nonemb_param" : 2,
+    "bytes_per_emb_param" : 2,
+    "entries_per_table" : 50257,
+    "num_transformer_layers" : 120,
+    "num_transformer_heads" : 96,
+    "attention_dim" : 10704,
+    "transformer_fc_dim" : 42816,
+    "transformer_seq_len" : 8192,
+    "num_experts" : 16,
+    "num_active_experts" : 2
+}

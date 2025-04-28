@@ -1,0 +1,12 @@
+{
+    "name" : "LLaMA2_70B_32Kctx",
+    "type" : "LLM",
+    "bytes_per_nonemb_param" : 2,
+    "bytes_per_emb_param" : 2,
+    "entries_per_table" : 50257,
+    "num_transformer_layers" : 80,
+    "num_transformer_heads" : 64,
+    "attention_dim" : 8192,
+    "transformer_fc_dim" : 21846,
+    "transformer_seq_len" : 32768
+}

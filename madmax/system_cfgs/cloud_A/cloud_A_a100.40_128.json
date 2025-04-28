@@ -1,0 +1,21 @@
+{
+    "name" : "CloudA-128-p4d.24xlarge",
+    "type" : "GPU",
+    "num_devices" : 128,
+    "num_nodes" : 16,
+    "f64_flops" : 9.7e12,
+    "f32_flops" : 156e12,
+    "f16_flops" : 312e12,
+    "i8_ops" : 624e12,
+    "flops_util" : 0.705,
+    "mem_cap" : 40e9,
+    "mem_bw" : 1555e9,
+    "mem_bw_util" : 0.836,
+    "num_nvlinks" : 12,
+    "bw_per_nvlink" : 50e9,
+    "nvlink_util" : 0.45,
+    "num_ibroce_ports" : 8,
+    "ibroce_bw" : 6.25e9,
+    "ibroce_util" : 0.62,
+    "ar_perc_intra" : 0.1465
+}

@@ -1,0 +1,12 @@
+{
+    "name" : "LLaMA_7B",
+    "type" : "LLM",
+    "bytes_per_nonemb_param" : 2,
+    "bytes_per_emb_param" : 2,
+    "entries_per_table" : 50257,
+    "num_transformer_layers" : 32,
+    "num_transformer_heads" : 32,
+    "attention_dim" : 4096,
+    "transformer_fc_dim" : 10924,
+    "transformer_seq_len" : 2048
+}

@@ -1,0 +1,10 @@
+{
+    "name" : "dlrm_moe_train",
+    "type" : "pretrain",
+    "mlp_parallel" : ["tp", "ddp"],
+    "mlp_parallel_degree" : [8, 16],
+    "emb_parallel" : ["mp"],
+    "emb_parallel_degree" : [128],
+    "local_mlp_bs" : 4096,
+    "local_emb_bs" : 65536
+}

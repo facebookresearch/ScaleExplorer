@@ -1,0 +1,15 @@
+{
+    "name" : "DLRM_A_MoE",
+    "type" : "DLRM_MoE",
+    "bytes_per_nonemb_param" : 4,
+    "bytes_per_emb_param" : 2,
+    "num_bot_mlp_layers" : 10,
+    "num_top_mlp_layers" : 10,
+    "mlp_dim" : 3994,
+    "num_tables" : 4096,
+    "entries_per_table" : 2080000,
+    "emb_dim" : 94,
+    "pooling_size" : 15,
+    "num_experts" : 16,
+    "num_active_experts" : 2
+}

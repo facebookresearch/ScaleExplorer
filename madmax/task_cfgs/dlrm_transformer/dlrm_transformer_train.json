@@ -1,0 +1,13 @@
+{
+    "name" : "dlrm_transformer_train",
+    "type" : "pretrain",
+    "mlp_parallel" : ["ddp"],
+    "mlp_parallel_degree" : [128],
+    "emb_parallel" : ["mp"],
+    "emb_parallel_degree" : [128],
+    "transformer_parallel" : ["ddp"],
+    "transformer_parallel_degree" : [128],
+    "local_mlp_bs" : 512,
+    "local_emb_bs" : 65536,
+    "local_transformer_bs" : 512
+}
