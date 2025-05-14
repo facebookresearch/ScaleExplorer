@@ -31,8 +31,11 @@ TASK_IMPORTS = {
 
 def load_config(config_file: str) -> Dict[str, Any]:
     """Load configuration from JSON file."""
-    with open(config_file, "r") as f:
-        return json.load(f)
+    try:
+        with open(config_file, "r") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError) as e:
+        sys.exit(f"Error loading config file {config_file}: {e}")
 
 
 # Import model
