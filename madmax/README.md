@@ -39,3 +39,19 @@ Successful runs will display output ending with `*******************************
 - `task_cfgs/`: Task configurations
 - `tasks/`: Task execution workload descriptions
 - `run_model.py`: Main simulation entry point
+
+## Citation
+Please cite [our ISCA'24 paper](https://arxiv.org/abs/2310.02784) as:
+
+``` bibtex
+@INPROCEEDINGS{hsia2024madmax,
+  author={Hsia, Samuel and Golden, Alicia and Acun, Bilge and Ardalani, Newsha and DeVito, Zachary and Wei, Gu-Yeon and Brooks, David and Wu, Carole-Jean},
+  booktitle={2024 ACM/IEEE 51st Annual International Symposium on Computer Architecture (ISCA)}, 
+  title={MAD-Max Beyond Single-Node: Enabling Large Machine Learning Model Acceleration on Distributed Systems}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={818-833},
+  doi={10.1109/ISCA59077.2024.00064}
+}
+```
