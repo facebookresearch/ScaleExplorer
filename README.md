@@ -4,7 +4,7 @@ ScaleExplorer is a simulation framework that enables agile exploration over the 
 
 ## MADMax
 
-MADMax is a tool for performance modeling of large-scale machine learning workloads. It is designed to provide highly configurable workload simulation settings across a wide range of hardware and software configurations. Please see the MADMax folder for more details.
+MADMax is a tool for performance modeling and simulation of large-scale machine learning workloads. MADMax is designed to provide highly configurable workload simulation settings across a wide range of hardware and software configurations. Please see the MADMax sub-repository and our [ISCA'24 paper](https://arxiv.org/abs/2310.02784) for more details.
 
 ## License
-This repository is CC-BY-NC 4.0 licensed, as found in the LICENSE file. The tools in the sub-repositories have their own individual licenses.
+This repository is CC-BY-NC 4.0 licensed, as found in the LICENSE file.
